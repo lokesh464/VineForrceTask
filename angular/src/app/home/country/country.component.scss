@@ -1,0 +1,86 @@
+.navbar {
+    background-color: #ebf3f9;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  
+  .navbar-nav li {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .rounded-rectangle-background {
+    background-color: #b6d5fb;
+    border: 1px solid #ffffff;
+    border-radius: 7px;
+  
+    // margin-left: 20px;
+    // margin-right: 20px;
+  }
+  
+  .table-content {
+    margin: 20px;
+  }
+  
+  :host ::ng-deep .p-colorpicker-preview {
+    border-color: rgb(107, 107, 107);
+    width: 30px;
+    height: 30px;
+  }
+  
+  ::ng-deep .p-dialog-footer .custom-margin {
+    margin-left: 8px;
+    /* Adjust the margin as needed */
+    margin-right: 8px;
+    /* Adjust the margin as needed */
+  }
+  
+  .custom-btn::after {
+    display: none !important;
+  }
+  
+  .card-body {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-body ul {
+    padding: 0px;
+  }
+  
+  .export-btn {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .export-btn:hover {
+    background-color: #e9ecef;
+  }
+  
+  .Country-table {
+    font-size: 13px !important;
+  }
+  
+  .Delete {
+    margin-right: 5px;
+    margin-left: 5px;
+  
+    @media (max-width: 430px) {
+      margin-right: 8px;
+      margin-left: 8px;
+    }
+  }
+  ::ng-deep {
+    .p-dropdown {
+      .p-dropdown-items-wrapper {
+        ul.p-dropdown-items {
+          padding-left: 0;
+        }
+      }
+    }
+  }

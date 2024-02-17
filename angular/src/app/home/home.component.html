@@ -1,0 +1,13 @@
+
+<div class="container">
+  <div class="container-build">
+    <button class="btn btn-primary m-3" (click)="OnCountryClick()">Country</button>
+    <button class="btn btn-primary m-3" (click)="OnStateClick()">State</button>
+  </div>
+<div *ngIf="!state" class="country">
+  <app-country></app-country>
+</div>
+<div *ngIf="state" class="state">
+  <app-state></app-state>
+</div>
+</div>
